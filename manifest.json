@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "네이버 부동산 실면적 정렬",
+  "version": "1.0",
+  "description": "네이버 부동산에서 실면적(전용면적) 기준으로 매물을 정렬합니다",
+  "permissions": ["activeTab", "scripting"],
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://new.land.naver.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

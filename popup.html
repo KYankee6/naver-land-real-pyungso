@@ -1,0 +1,42 @@
+
+// popup.html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>네이버 부동산 실면적 정렬</title>
+    <style>
+        body {
+            width: 250px;
+            padding: 10px;
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+        button {
+            width: 100%;
+            padding: 8px;
+            margin-top: 10px;
+            background-color: #03c75a;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #02b350;
+        }
+        .info {
+            font-size: 12px;
+            color: #666;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+<h3>네이버 부동산 실면적 정렬</h3>
+<button id="sortByActualArea">실면적 기준 정렬하기</button>
+<div class="info">
+    * 현재 표시된 매물들을 전용면적(실면적) 기준으로 정렬합니다.
+</div>
+<script src="popup.js"></script>
+</body>
+</html>
