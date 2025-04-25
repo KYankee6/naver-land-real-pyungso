@@ -1,6 +1,9 @@
-![image](https://github.com/user-attachments/assets/eac4a454-7952-4c45-95cb-98602dd69ab5)
 
 네이버 부동산에서 실면적(전용면적) 기준으로 매물을 정렬합니다. 
+
+![image](https://github.com/user-attachments/assets/eac4a454-7952-4c45-95cb-98602dd69ab5)
+
+# 사용법
 
 다음 명령어로 소스 코드를 가져와 주세요.
 
