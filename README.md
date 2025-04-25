@@ -3,7 +3,8 @@
 네이버 부동산에서 실면적(전용면적) 기준으로 매물을 정렬합니다. 
 
 다음 명령어로 소스 코드를 가져와 주세요.
-git clone https://github.com/KYankee6/naver-land-real-pyungso.git
+
+`git clone https://github.com/KYankee6/naver-land-real-pyungso.git`
 
 이후 확장 프로그램 (주소창 chrome://extensions/)에 들어가, 해당 폴더를 업로드할 수 있습니다.
 
